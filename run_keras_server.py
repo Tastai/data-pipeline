@@ -176,5 +176,5 @@ if __name__ == "__main__":
   load_model()
   prepKitchenDocs()
   prepIngredientDocs()
-  app.run()
+  app.run(host='0.0.0.0')
 
